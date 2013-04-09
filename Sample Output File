@@ -1,0 +1,117 @@
+%%% SAMPLE OUTPUT-- VIRTUAL FILESYSTEM CREATION -- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Apr 08, 2013 6:10:28 PM org.apache.commons.vfs2.impl.StandardFileSystemManager info
+INFO: Using "C:\Users\Navn\AppData\Local\Temp\vfs_cache" as temporary files store.
+Content in the present working directory: C:/Users/Public/VFS
+%%%-------------------------------------------------%%%
+
+%%%-- MENU DISPLAY WITH OPTIONS TO CHOOSE --%%%
+Please follow the menu to use VFS
+1-create a folder||2-create and write in a file||3-read file||4-List contents||5-Enter into folder||
+6-back to parent folder||7-copy files from local filesystem to VFS||8-delete a file||9-Exit VFS1
+%%%-------------------------------------------------%%%
+
+%%%-- ON SELECT OF OPTION 1--%%%
+Enter the folder name to create
+test
+Folder creation success
+Content in the present working directory: C:/Users/Public/VFS/test
+%%%-------------------------------------------------%%%
+
+%%%-- MENU DISPLAY WITH OPTIONS TO CHOOSE --%%%
+Please follow the menu to use VFS
+1-create a folder||2-create and write in a file||3-read file||4-List contents||5-Enter into folder||
+6-back to parent folder||7-copy files from local filesystem to VFS||8-delete a file||9-Exit VFS1
+%%%-------------------------------------------------%%%
+
+%%%-- ON SELECT OF OPTION 2--%%%
+Enter the file name to create
+firstfile
+File Created Please Enter Content, when Finished type DONE
+Hello World!!!
+Success
+DONE
+%%%-------------------------------------------------%%%
+
+%%%-- MENU DISPLAY WITH OPTIONS TO CHOOSE --%%%
+Please follow the menu to use VFS
+1-create a folder||2-create and write in a file||3-read file||4-List contents||5-Enter into folder||
+6-back to parent folder||7-copy files from local filesystem to VFS||8-delete a file||9-Exit VFS1
+%%%-------------------------------------------------%%%
+
+%%%-- ON SELECT OF OPTION 3--%%%
+Enter the filename
+firstfile
+
+Hello World!!!
+Success
+%%%-------------------------------------------------%%%
+
+%%%-- MENU DISPLAY WITH OPTIONS TO CHOOSE --%%%
+Please follow the menu to use VFS
+1-create a folder||2-create and write in a file||3-read file||4-List contents||5-Enter into folder||
+6-back to parent folder||7-copy files from local filesystem to VFS||8-delete a file||9-Exit VFS1
+%%%-------------------------------------------------%%%
+
+%%%-- ON SELECT OF OPTION 4--%%%
+Content in the present working directory: C:/Users/Public/VFS/test
+----firstfile ||type: file
+%%%-------------------------------------------------%%%
+
+%%%-- MENU DISPLAY WITH OPTIONS TO CHOOSE --%%%
+Please follow the menu to use VFS
+1-create a folder||2-create and write in a file||3-read file||4-List contents||5-Enter into folder||
+6-back to parent folder||7-copy files from local filesystem to VFS||8-delete a file||9-Exit VFS1
+%%%-------------------------------------------------%%%
+
+%%%-- ON SELECT OF OPTION 1--%%%
+Enter the folder name to create
+test1
+Folder creation success
+Content in the present working directory: C:/Users/Public/VFS/test/test1
+%%%-------------------------------------------------%%%
+
+%%%-- MENU DISPLAY WITH OPTIONS TO CHOOSE --%%%
+Please follow the menu to use VFS
+1-create a folder||2-create and write in a file||3-read file||4-List contents||5-Enter into folder||
+6-back to parent folder||7-copy files from local filesystem to VFS||8-delete a file||9-Exit VFS1
+%%%-------------------------------------------------%%%
+
+%%%-- ON SELECT OF OPTION 6--%%%
+Content in the present working directory: /C:/Users/Public/VFS/test
+----firstfile ||type: file
+----test1 ||type: folder
+%%%-------------------------------------------------%%%
+
+%%%-- MENU DISPLAY WITH OPTIONS TO CHOOSE --%%%
+Please follow the menu to use VFS
+1-create a folder||2-create and write in a file||3-read file||4-List contents||5-Enter into folder||
+6-back to parent folder||7-copy files from local filesystem to VFS||8-delete a file||9-Exit VFS1
+%%%-------------------------------------------------%%%
+
+%%%-- ON SELECT OF OPTION 7--%%%
+Enter the path of the file in local filesystem that you wish to copy to VFS
+C:/text.txt
+Apr 08, 2013 6:25:17 PM org.apache.commons.vfs2.impl.StandardFileSystemManager info
+INFO: Using "C:\Users\Navn\AppData\Local\Temp\vfs_cache" as temporary files store.
+File upload success
+%%%-------------------------------------------------%%%
+
+%%%-- MENU DISPLAY WITH OPTIONS TO CHOOSE --%%%
+Please follow the menu to use VFS
+1-create a folder||2-create and write in a file||3-read file||4-List contents||5-Enter into folder||
+6-back to parent folder||7-copy files from local filesystem to VFS||8-delete a file||9-Exit VFS1
+%%%-------------------------------------------------%%%
+
+%%%-- ON SELECT OF OPTION 8--%%%
+Enter the file name that you wish to delete
+text.txt
+Apr 08, 2013 7:04:02 PM org.apache.commons.vfs2.impl.StandardFileSystemManager info
+INFO: Using "C:\Users\Navn\AppData\Local\Temp\vfs_cache" as temporary files store.
+Delete remote file success
+Content in the present working directory: C:/Users/Public/VFS
+----test ||type: folder
+----test2 ||type: folder
+%%%-------------------------------------------------%%%
+%%%-- ON SELECT OF OPTION 8--%%%
+Exits out of VFS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
